@@ -240,6 +240,7 @@ a {
   padding: 6px 22px;
   border-radius: 4px;
 }
+.filter-button:hover,
 .filter-button:hover {
   background: var(--accent-color);
 
