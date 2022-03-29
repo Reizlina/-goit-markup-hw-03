@@ -163,6 +163,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  font-weight: 900;
 
   margin-bottom: 30px;
   box-sizing: border-box;
@@ -233,6 +234,7 @@ a {
 
 .busines-title {
   margin-bottom: 50px;
+  font-weight: 700;
 }
 
 /* Наша команда */
@@ -247,12 +249,14 @@ a {
 }
 .team-title {
   margin-bottom: 50px;
+  font-weight: 700;
 }
 .team-names {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  font-weight: 500;
 
   margin-bottom: 10px;
 }
