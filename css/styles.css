@@ -43,7 +43,7 @@ body {
 .site-nav {
   display: flex;
 }
-.site-nav li,
+.site-nav-link,
 .socials-list-item {
   margin: 0 50px 0 0;
 }
@@ -257,9 +257,9 @@ a {
   font-size: 16px;
   line-height: 1.18;
   font-weight: 500;
-
   margin-bottom: 10px;
 }
+
 .team-item {
   background-color: var(--primary-bg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -269,14 +269,14 @@ a {
   flex-direction: column;
   align-items: center;
 }
-.team-img {
-  margin-bottom: 30px;
-}
 
 .team-text {
   font-size: 16px;
   line-height: 1.18;
-  margin-bottom: 30px;
+}
+
+.team-text-box {
+  padding: 30px 0;
 }
 
 /* Стили для ПОРТФОЛИО */
@@ -298,7 +298,7 @@ a {
   margin-bottom: 20px;
 }
 .filter-item {
-  padding-right: 8px;
+  margin: 0 4px;
 }
 
 .filter-button {
